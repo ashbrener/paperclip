@@ -2,7 +2,8 @@
   "$schema": "https://railway.com/railway.schema.json",
   "build": {
     "builder": "RAILPACK",
-    "buildCommand": "pnpm install && pnpm build"
+    "buildCommand": "pnpm install && pnpm build",
+    "dockerfilePath": null
   },
   "deploy": {
     "startCommand": "pnpm --filter @paperclipai/server start",
